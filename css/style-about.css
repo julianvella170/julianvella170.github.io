@@ -1,0 +1,33 @@
+.section-about {
+    padding-left: 50%;
+    padding-bottom: 20px;
+}
+
+.section-about h1 {
+    font-size: 40px;
+    line-height: 0;
+    padding-bottom: 40px;
+}
+
+.section-about p {
+    line-height: 0.4;
+    font-size: 20px;
+}
+
+@media(max-width: 700px) {
+    .section-about {
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }
+
+    .section-about h1 {
+        font-size: 35px;
+        line-height: 1;
+        padding-bottom: 0;
+    }
+    
+    .section-about p {
+        line-height: 1;
+        font-size: 20px;
+    }
+}

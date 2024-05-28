@@ -1,0 +1,42 @@
+.input-row {
+    display: flex;
+    margin-top: 40px;
+}
+
+.input-row .input-group {
+    flex-basis: 47.4%;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.input-group {
+    padding-left: 40px;
+    padding-right: 120px;
+    margin-bottom: 40px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #111111;
+    outline: none;
+    z-index: -1;
+    padding-bottom: 5px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase {
+    width: 700px;
+    padding: 0px 40px
+}
+
+.test {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
